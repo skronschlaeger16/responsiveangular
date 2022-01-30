@@ -1,0 +1,49 @@
+.course
+{
+    background-color: whitesmoke;
+    padding: 50px 100px;
+}
+
+.box img
+{
+    max-height:300px;
+    max-width: 200px;
+}
+
+.col-lg-3
+{
+    margin-left:100px;
+}
+
+.row
+{
+}
+
+.box
+{
+    display: flex ;
+    align-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding:10px 20px;
+    text-align: center;
+    
+}
+
+.box h1
+{
+    
+}
+
+@media screen and (max-width: 1000px){
+    
+    .course
+    {
+        padding: 50px 10px;
+    }
+    .col-lg-3
+{
+    margin-left:0px;
+}
+}

@@ -1,1 +1,18 @@
-<p>course works!</p>
+<section class="course">
+    <div class="container">
+        <h1 class="text-center">Alle Kurse</h1>
+
+        <div class="row" >
+            <div class="col-lg-3" *ngFor="let cs of course">
+                <div class="box">
+                    <img src="{{cs.image}}">
+                    <h3>{{cs.name}}</h3>
+                    <p>{{cs.description}}</p>
+                    <button class="btn btn-primary">Okayyyy</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</section>
